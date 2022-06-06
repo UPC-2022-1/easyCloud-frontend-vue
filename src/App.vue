@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import '@/styles/overrides.sass'
+import './styles/overrides.sass'
 export default {
   name: 'App',
   data: () => ({
