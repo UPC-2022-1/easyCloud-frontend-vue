@@ -1,17 +1,13 @@
 <template>
-  <router-view></router-view>
+  <v-fade-transition mode="out-in">
+    <router-view />
+  </v-fade-transition>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import '@/styles/overrides.sass'
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld,
-  },
-
   data: () => ({
     //
   }),
